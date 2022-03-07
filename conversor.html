@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Simulador de Plazos Fijos">
+    <title>Conversor de Monedas</title>
+    <link rel="stylesheet" type="text/css" href="css/conversor.css"> 
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">   
+
+
+</head>
+<body>  
+
+  <header id="header" class="bna">
+  
+  
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
+      <div>
+                    <div class="collapse navbar-collapse" id="navbarResponsive">
+              <ul class="navbar-nav text-uppercase ms-auto py-4 py-lg-0">
+                  <li class="nav-item"><a class="nav-link" href="index.html">Inicio</a></li>
+                  <li class="nav-item"><a class="nav-link" href="plazofijo.html">Plazo fijo</a></li>
+                  <li class="nav-item"><a class="nav-link" href="conversor.html">Conversor</a></li>
+              </ul>
+          </div>
+      </div>
+  </nav>
+  </header>
+
+<main>
+    <div class="container">
+      <div class="currency-converter">
+        <div class="title">
+          <img src="./images/exchange.png" />
+          <h1>Conversor de Monedas</h1>
+        </div>
+        <div class="exchange-rate">
+          <p>--- es igual a</p>
+          <h1>---</h1>
+        </div>
+        <div class="from-currency">
+          <input type="number" id="from-currency-amount" value="1" />
+          <select>
+            <option>USD - United States Dollar</option>
+          </select>
+        </div>
+        <div class="to-currency">
+          <input type="number" id="to-currency-amount" />
+          <select>
+            <option>USD - United States Dollar</option>
+          </select>
+        </div>
+      </div>
+    </div>
+
+<footer>
+        <div class="center">
+            <p>&copy; All rights reserved</p>          
+        </div>
+</footer>
+
+<script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+  crossorigin="anonymous"></script>
+<script src="./js/conversor.js"></script>
+
+
+</body>
+</html>

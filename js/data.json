@@ -1,0 +1,37 @@
+[
+   {
+      "tipo":"pesos",
+      "simbolo":"$",
+      "saldo":23000
+   },
+   {
+      "tipo":"dolares",
+      "simbolo":"u$s",
+      "saldo":450
+   },
+   {
+      "tipo":"pesos",
+      "simbolo":"$",
+      "saldo":22000
+   },
+   {
+      "tipo":"pesos",
+      "simbolo":"$",
+      "saldo":34500
+   },
+   {
+      "tipo":"pesos",
+      "simbolo":"$",
+      "saldo":68600
+   },
+   {
+      "tipo":"dolares",
+      "simbolo":"u$s",
+      "saldo":1300
+   },
+   {
+      "tipo":"dolares",
+      "simbolo":"u$s",
+      "saldo":2440
+   }
+]

@@ -1,0 +1,243 @@
+body {
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #333;
+    background-color: #fff;
+    margin: 0px;
+}
+footer {clear: both;}
+.center{text-align: center;}
+.container {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.danger {
+    background-color: rgba(218, 4, 4, 0.79);
+    color: #fff;
+}
+.home .logo img {width: 10%;}
+.row {margin-right: -15px; margin-left: -15px;}
+.bna{background-color: black;}
+.clear{clear:both;margin: 20px 0px;}
+#header {height: 70px;}
+.logo img {height: auto;margin: 15px auto;}
+.bannerhome {: 
+    height: 50vh;  background-size: cover;     padding: 1em 2em; text-align: center;}
+    .bannerhome h1 {display: inline-block;padding-top: 4em;text-shadow: 1px 1px 1px #000;color: #ddd;font-size: 40px;}
+#content-form {width: 370px;background-color: #eaeaea;padding: 0px 20px 20px 20px;
+text-align: center;}
+.form-control {border-radius: 5px;border: 1px solid #ccc;padding: 5px;margin: 10px 0px;     display: block; width: 90%; min-height: 30px;}
+.btn {
+    border: 0px;
+    color: #F1F8E9;
+    padding: 7px 25px;
+    border-radius: 2px;
+    font-size: 16px;
+    margin-top: 30px;
+}
+.btn-primary {background-color: #007894;}
+.btn-danger {background-color: #E91E63;}
+.list {padding-left: 20px;}
+.list h2 {margin: 0px;}
+.list-inline li {display: inline-block;}
+.list-inline li a {color: #607D8B;text-decoration: blink;}
+.container-list ul li { margin-bottom: 20px;}
+.table {width: 100%;}
+.table>tbody>tr>td, .table>tbody>tr>th, .table>tfoot>tr>td, .table>tfoot>tr>th, .table>thead>tr>td, .table>thead>tr>th {
+    padding: 8px;
+    line-height: 1.42857143;
+    vertical-align: top;
+    border-top: 1px solid #ddd;
+    text-align: center;
+}
+#clac_error {
+    color: red;
+}
+
+#panelSimulador {
+text-position: center;}
+
+section {
+    padding-top: 2em;
+    text-align: center;
+}
+.col-sm-7 {
+    width: 52.33333333%;
+    float: left;
+}
+.col-sm-5 {
+    width: 41.66666667%;
+    float: left;
+}
+.col-md-6 {
+    width: 33.3%;
+    float: left;
+    margin: 5em 0px;
+}
+@media (min-width: 1200px){
+.container {
+    width: 1170px;
+}
+
+}
+@media (min-width: 992px){
+.container {
+    width: 970px;
+}
+.list h2 {
+    margin: 0px;
+    margin-left: 21px;
+}
+.list {
+    padding-left: 57px;
+    padding-top: 16px;
+}
+.col-md-offset-2 {
+    margin-left: 16.66666667%;
+}
+.col-md-8 {
+    width: 66.66666667%;
+}
+
+}
+
+@media (max-width: 768px){
+
+.container {
+    width: 100%;
+ }
+    header .header-content {
+    text-align: left;
+    padding: 0;
+    height: 100vh;
+}
+	
+h1 {
+    font-size: 14px;
+}
+
+.col-sm-5 {
+    width: 100%;
+    float: left;
+}
+ .col-md-6 {
+    width: 100%;
+    margin: 0px;
+}
+.col-sm-7 {
+    width: 52.33333333%;
+    float: left;
+}
+.bannerhome {
+    height: auto;
+    background-position: center;
+    background-attachment: inherit;
+    padding: 0px;
+    background-repeat: no-repeat;
+}
+.form-control {
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    padding: 5px;
+    margin: 10px 0px;
+    display: block;
+    width: 80%;
+    min-height: 30px;
+}
+.bannerhome h1{
+        padding-top: 1em;
+}
+.row{padding: 0px; margin: 0px;}
+
+#content-form {
+    width: 100%;     box-sizing: border-box;
+}
+.container {
+    padding: 0px;
+    padding-left: 6px;
+}
+.clear{padding: 0px;}
+
+
+.bna-logo span {
+    background-size: 82%;
+    width: 100%;
+    height: 40px;
+    margin: 10px 0px;
+}
+
+.santander-logo span {
+    background-size: 62%;
+    width: 100%;
+    height: 40px;
+}
+
+.galicia-logo span {
+    background-size: 50%;
+    width: 99%;
+    height: 67px;
+}
+
+.list {
+    padding-left: 6px;
+    padding-top: 16px;
+}
+img {
+    vertical-align: middle;
+    max-width: 100%;
+    height: auto;
+    display: inline-block;
+}
+.home .logo img {
+    width: 26%;
+}
+
+}
+
+
+@media (max-width: 400px){
+
+.bannerhome{
+    height: auto;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.form-control {
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    padding: 5px;
+    margin: 10px 0px;
+    display: block;
+    width: 80%;
+    min-height: 30px;
+}
+.bannerhome h1{
+        padding-top: 1em;
+}
+.row{padding: 0px; margin: 0px;}
+
+#content-form {
+    width: 100%;     box-sizing: border-box;
+}
+.container {
+    padding: 0px;
+    padding-left: 6px;
+}
+.clear{padding: 0px;}
+}
+.list {
+    padding-left: 6px;
+    padding-top: 16px;
+}
+
+.header-content-inner{
+    text-align: center;
+    padding-top: 50px;
+  }
+
+main {
+    text-align: center;
+}
